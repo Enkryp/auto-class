@@ -1,5 +1,8 @@
 # add run.sh to cron deamon
 
-```$ crontab -e```
-add :  ```@reboot 'path to run.sh' ```
+Edit cron using : ```$ crontab -e```
+
+
+
+add run.sh to cron  :  ```@reboot 'path to run.sh' ```
 
