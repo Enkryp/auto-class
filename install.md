@@ -1,8 +1,5 @@
-# add run.sh to cron deamon
+# add run.sh to profile.d
 
-Edit cron using : ```$ crontab -e```
+Add run.sh to ```/etc/profile.d```
 
-
-
-add run.sh to cron  :  ```@reboot 'path to run.sh' ```
-
+Chmod +x ```run.sh```
